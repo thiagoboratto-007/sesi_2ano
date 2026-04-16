@@ -1,0 +1,73 @@
+<?php
+
+$opcao = "";
+
+
+
+
+   while ($opcao != 6){
+   echo ("---menu psi---
+   1- Objetivos da PSI
+   2-Escopo da Política
+   3-Responsabilidades
+   4-Boas Práticas de Segurança
+   5-Consequências do Descumprimento");
+    
+    $opcao = readline ("digite sua opcao: "); "\n"; 
+    switch ($opcao){    
+    
+
+
+
+    
+    case 1:
+echo	"Proteger os Pilares da SI (Confidencialidade, Integridade, Disponibilidade): Garantir que a informação seja acessada apenas por pessoas autorizadas, esteja correta e disponível quando necessário.
+	Mitigação de Riscos: Minimizar ameaças de perdas, roubos, alterações indevidas ou interrupções de negócio.
+	Conformidade Legal: Adequação à LGPD (Lei Geral de Proteção de Dados) e outras regulamentações do setor.
+	Cultura de Segurança: Padronizar comportamentos seguros e conscientizar colaboradores"; "\n";
+
+    break;
+     
+     
+     
+    case 2:
+	"Abrangência Geral: Aplica-se a todos os colaboradores (próprios, terceirizados), fornecedores e parceiros comerciais.
+	Ativos de Informação: Cobre dados em formato físico ou digital, sistemas, redes e infraestrutura de TI.
+	Ambiente: Inclui trabalho presencial, remoto (home office) e uso de dispositivos móveis."; "\n";
+
+break;
+  
+
+case 3;
+	"Alta Administração: Aprovar a PSI, instituir comitês e prover recursos.
+	Área de TI/Segurança: Definir diretrizes técnicas, monitorar redes e gerenciar incidentes.
+	Colaboradores/Usuários: Cumprir a política, proteger credenciais e reportar incidentes"; "\n";
+
+ break;
+ 
+
+ case 4:
+	"Gestão de Acesso: Princípio do privilégio mínimo (acesso apenas ao necessário) e uso de senhas fortes com dupla autenticação (2FA).
+	Proteção de Dados: Criptografia, backups regulares e controle de uso de mídias removíveis.
+	Uso de Ativos: Regras para uso de e-mail corporativo, internet e redes sociais.
+	Segurança Física: Controle de acesso a áreas restritas e Política de Mesa Limpa/Tela Limpa.
+	Trabalho Remoto: Diretrizes para conexão VPN segura e proteção de dados fora do escritório"; "\n";
+
+ break;      
+ 
+ 
+case 5:
+	"Relato de Incidentes: Procedimento claro para comunicar suspeitas de violação (phishing, perda de dispositivos).
+	Resposta a Incidentes: Passos para conter, erradicar e recuperar de ataques."; "\n";
+break;
+
+
+
+
+
+
+}
+}
+
+
+?>
