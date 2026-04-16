@@ -2,7 +2,9 @@
 
 $caractere = "ola mundo ";
 $nome = "eu sou o thiago ";
-echo "$caractere";
+$descricao = "curso: tecnico em desenvolvimento de sistemas";
 
-echo $caractere, " ", $nome;
+
+echo "$caractere";
+echo $caractere, " ", $nome. "\n". $descricao;
 ?>
